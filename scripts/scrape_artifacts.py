@@ -45,7 +45,7 @@ def parse_artifact(research_html):
 
 def main():
     # Read the HTML file that contains both Quest and Lore artifacts
-    with open("Artifacts_index.php", "r", encoding="utf-8") as f:
+    with open("../../not-a-wiki/Artifacts/index.php", "r", encoding="utf-8") as f:
         html_content = f.read()
 
     soup = BeautifulSoup(html_content, "html.parser")

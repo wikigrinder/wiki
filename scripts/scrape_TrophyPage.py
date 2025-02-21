@@ -71,7 +71,7 @@ def parse_trophies(html_content):
     return trophies
 
 def main():
-    input_file = "Trophies_index.txt"
+    input_file = "../../not-a-wiki/TrophyPage/index.php"
     with open(input_file, "r", encoding="utf-8") as f:
         html_content = f.read()
     trophies = parse_trophies(html_content)
