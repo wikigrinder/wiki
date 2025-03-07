@@ -1,0 +1,889 @@
+[
+  {
+    "name": "Ancient Stoneslab 1",
+    "description": ": We discovered an ancient stone slab written in old scriptures. It appears to say something about Halls of Legends.",
+    "requirement": ": 5th Excavation",
+    "effects": [
+      ": 1st clue required to unlock the Titan Alliance."
+    ]
+  },
+  {
+    "name": "Fossilized Piece of Bark 1",
+    "description": ": We discovered a fossilized piece of Bark with the image of a Faction Coin carved into it.",
+    "requirement": ": 10th Excavation",
+    "effects": [
+      ": 1st clue required to unlock the Druid Alliance."
+    ]
+  },
+  {
+    "name": "Bone Fragment 1",
+    "description": ": We discovered a sundial shaped artefact, probably made of animal bones.",
+    "requirement": ": 15th Excavation",
+    "effects": [
+      ": 1st clue required to unlock the Faceless Alliance."
+    ]
+  },
+  {
+    "name": "Ancient Stoneslab 2",
+    "description": ": We discovered an ancient stone slab written in old scriptures.We can recognize the number 300.",
+    "requirement": ": 20th Excavation",
+    "effects": [
+      ": 2nd clue required to unlock the Titan Alliance."
+    ]
+  },
+  {
+    "name": "Fossilized Piece of Bark 2",
+    "description": ": We discovered a fossilized piece of Bark with the symbol of One Million.",
+    "requirement": ": 25th Excavation",
+    "effects": [
+      ": 2nd clue required to unlock the Druid Alliance."
+    ]
+  },
+  {
+    "name": "Bone Fragment 2",
+    "description": ": We discovered an artefact shaped like the number 36, probably made of animal bones.",
+    "requirement": ": 30th Excavation",
+    "effects": [
+      ": 2nd clue required to unlock the Faceless Alliance."
+    ]
+  },
+  {
+    "name": "Key to the Lost City",
+    "description": ": Despite being thousands of years old, it's still shiny.",
+    "requirement": ": R23+, 1500th Excavation",
+    "effects": [
+      ": Part of the Neutral research quest"
+    ]
+  },
+  {
+    "name": "Ancient Device",
+    "description": ": This strange Device seems to react to the Ancient Races magical capabilities. We may channel its power to increase their research potential!",
+    "requirement": ": Play any Neutral Faction, their Unique Building, 2000+ excavations.",
+    "effects": [
+      ": Provides 2 additional slots: 1 for each related to the Neutral Faction's Facility you are playing."
+    ],
+    "chance": ": 0.2%",
+    "cost": ": 100 QiSxg (1e200)",
+    "note": ": Has no effect in R100+"
+  },
+  {
+    "name": "Earth Core",
+    "description": ": This piece of rock is continuously shifting its shape, responding to mysterious energy sources.",
+    "requirement": ": R29+, 2750th Excavation",
+    "effects": [
+      ": Part of the Prestige research quest"
+    ]
+  },
+  {
+    "name": "Horn of the Kings",
+    "description": ": It is said that when this horn is blown, the voices of past Dwarven Kings can be heard in the Wind.",
+    "requirement": ": Dwarven Faction, Dwarven Forges, 3250+ Excavations",
+    "effects": [
+      ": Unlocks the upgrade Legacy of the Kings that adds 3 extra slots: 2 for Craftsmanship and 1 related to the Good Base Faction's facility you are playing."
+    ],
+    "chance": ": 0.5%",
+    "cost": ": 10 SxSpg (1e232) and 100 M (1e8) Dwarven Coins",
+    "note": ": Has no effect in R100+"
+  },
+  {
+    "name": "Flame of Bondelnar",
+    "description": ": The magical azure flame of Bondelnar constantly emanates a silent, yet subtle, evil aura.",
+    "requirement": ": Drow Faction, Spider Sanctuaries, 3250+ Excavations",
+    "effects": [
+      ": Unlocks the upgrade The Dark Light of Bondelnar that adds 3 extra slots: 2 for Warfare and 1 related to the Evil Base Faction's facility you are playing."
+    ],
+    "chance": ": 0.5%",
+    "cost": ": 10 SxSpg (1e232), 100 M (1e8) Drow Coins",
+    "note": ": Has no effect in R100+"
+  },
+  {
+    "name": "Spiky Rough Egg",
+    "description": ": What a weird egg... it looks ages old, yet something alive is inside. Perhaps if you wait long enough, something will hatch?",
+    "requirement": ": R46+, 1500 Excavations",
+    "chance": ": 2%",
+    "effects": [
+      ": Unlocks the Hatch! Egg"
+    ]
+  },
+  {
+    "name": "Obsidian Shard",
+    "description": ": Extremely hard and black as darkness itself, this material cannot apparently be carved or melted. It is a mystery how you can make this thing into a sword.",
+    "requirement": ": R75+, any Faction, 8000th Excavation",
+    "effects": [
+      ": Unlocks Secrets of the Warriors"
+    ]
+  },
+  {
+    "name": "First Iron Fragment",
+    "hint": ": This one seems to require a lot of magical renewance.",
+    "description": ": It looks like a piece of an iron object. It's broken off on two sides.",
+    "requirement": ": R125+, Angel Faction, 12,500+ Excavations",
+    "chance": ": (log10(1 + x) ^ 3 / 100,000)%, where x is your Mana Regeneration."
+  },
+  {
+    "name": "Second Iron Fragment",
+    "hint": ": Found via extensive Royal Trading mandates.",
+    "description": ": It looks like a piece of an iron object. It's broken off on two sides.",
+    "requirement": ": R125+, Titan Faction, 12,500+ Excavations",
+    "chance": ": (x ^ 3 / 5,000,000,000 (5 B))%, where x is the individual Royal Exchange bonus."
+  },
+  {
+    "name": "Third Iron Fragment",
+    "hint": ": Chances to find increase while not actively searching.",
+    "description": ": It looks like a piece of an iron object. It's broken off on two sides.",
+    "requirement": ": R125+, Undead Faction, 12,500+ Excavations",
+    "chance": ": ((log10(1 + x) - 2) ^ 3 / 500,000)%, where x is offline bonus."
+  },
+  {
+    "name": "First Crystal Fragment",
+    "hint": ": Assistants will lead the way.",
+    "description": ": A strange, glass-like material that appears to have been shattered into three pieces.",
+    "requirement": ": R125+, Fairy Faction, 12,500+ Excavations",
+    "chance": ": (x / 100,000,000,000 (100 B))%, where x is assistant count (including temporary assistants)."
+  },
+  {
+    "name": "Second Crystal Fragment",
+    "hint": ": Are Faction Coins attracted to glass?",
+    "description": ": A strange, glass-like material that appears to have been shattered into three pieces.",
+    "requirement": ": R125+, Faceless Faction, 12,500+ Excavations",
+    "chance": ": (log10(1 + x) ^ 3 / 2,500,000 (2.5 M))%, where x is Faction Coins found this game."
+  },
+  {
+    "name": "Third Crystal Fragment",
+    "hint": ": Also acts as a spell catalyst.",
+    "description": ": A strange, glass-like material that appears to have been shattered into three pieces.",
+    "requirement": ": R125+, Demon Faction, 12,500+ Excavations",
+    "chance": ": (x / 50,000,000 (50 M))%, where x is evil spells cast this Reincarnation."
+  },
+  {
+    "name": "First Stone Fragment",
+    "hint": ": Click to Carve.",
+    "description": ": Made from stone so ancient it is unknown to the current world. Two parts seem to be missing.",
+    "requirement": ": R125, Elven Faction, 12,500+ Excavations",
+    "chance": ": (log10(1 + x) ^ 3 / 20,000)%, where x is the amount of clicks made in this game."
+  },
+  {
+    "name": "Second Stone Fragment",
+    "hint": ": Stone to stone, buildings to buildings.",
+    "description": ": Made from stone so ancient it is unknown to the current world. Two parts seem to be missing.",
+    "requirement": ": R125+, Druid Faction, 12,500+ Excavations",
+    "chance": ": (x / 20,000,000 (20 M))%, where x is amount of buildings."
+  },
+  {
+    "name": "Third Stone Fragment",
+    "hint": ": Might be collected with taxes.",
+    "description": ": Made from stone so ancient it is unknown to the current world. Two parts seem to be missing.",
+    "requirement": ": R125+, Goblin Faction, 12,500+ Excavations",
+    "chance": ": (log10(1 + x) ^ 3 / 125,000)%, where x is Tax Collections cast in this game."
+  },
+  {
+    "name": "Obsidian Crown",
+    "hint": ": Only the wisest turns over the same stone twice. Or more.",
+    "description": ": The legendary Black Crown of the Mercenary Lord. Some words are engraved into the inner circle at its base: \"Aran en Ilya, Silas en Quenta\".",
+    "requirement": ": R170+, Mercenary Faction, 10 Excavation Resets (This game)",
+    "chance": ": ((x - 10) / 1,000)%, x is the number of free and ruby excavation resets (This game)",
+    "effects": [
+      ": Unlocks Mercenary Union Contract"
+    ]
+  },
+  {
+    "name": "Forgotten Relic",
+    "hint": ": Research it!",
+    "description": ": Intricate leylines of mana cover the surface of this stone, moving and flailing endlessly to create ever-different patterns.",
+    "requirement": ": R175+",
+    "chance": ": (x ^ 2 / 100,000,000,000 (100 B))%, where x is spent Research budget.",
+    "effects": [
+      ": Unlocks Research Facility upgrades"
+    ],
+    "note": ": Each Facility needs their respective artifact and this artifact to get their respective upgrade."
+  },
+  {
+    "name": "Rough Stone",
+    "hint": ": A first-time only discovery.",
+    "description": ": A common, totally uninteresting stone.",
+    "chance": ": 2% on the first excavation of a run, after abdication or reincarnation.",
+    "effects": [
+      ": Unlocks Research D290"
+    ]
+  },
+  {
+    "name": "Scarab of Fortune",
+    "hint": ": Rarely found in the pyramids of old.",
+    "description": ": You found the rarest of relics. This golden scarab will grant you 7 days of good luck, starting from now. Make good use of it.",
+    "chance": ": (x / 1,000)%, where x is the amount of Ancient Pyramids you own.",
+    "effects": [
+      ": Awards an upgrade of the same name that increases the production of all buildings by 0.1% for each trophy you unlocked."
+    ],
+    "cost": ": 7 Td (7e42)"
+  },
+  {
+    "name": "Chocolate Cookie",
+    "hint": ": Excavated commonly in all areas.",
+    "description": ": Found in a wasteland made of cakes and sweets, snatched from the hands of an old woman.",
+    "chance": ": (x / 50)%, where x is the your Excavation count."
+  },
+  {
+    "name": "Fossilized Rodent",
+    "hint": ": Hello, mouse.",
+    "description": ": What's this, a prehistoric mouse...?",
+    "chance": ": (x / 5,000,000 (5 M))%, where x is the amount of clicks made in this Reincarnation.",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase clicking reward based on the amount of artifacts you discovered."
+    ],
+    "formula": ": (10 * x)%, where x is number of artifacts you discovered.",
+    "cost": ": 100 Qid (1e50)"
+  },
+  {
+    "name": "Power Orb",
+    "hint": ": Attracted by massive concentration of mana.",
+    "description": ": Throbbing with Arcane Power",
+    "requirement": ": 3000+ Maximum Mana",
+    "chance": ": (x / 15,000)%, where x is your Maximum Mana.",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Multiplicatively increases Mana Regeneration by 2.5%."
+    ],
+    "cost": ": 1 QaVg (1e75), A1+: Free"
+  },
+  {
+    "name": "Pink Carrot",
+    "hint": ": Found randomly in the Farms.",
+    "description": ": The main product of properly nurtured Farms.",
+    "requirement": ": Fairy Faction (Not Dwarven)",
+    "chance": ": (x / 5,000)%, where x is the amount of Farms you own."
+  },
+  {
+    "name": "Bottled Voice",
+    "hint": ": Can be captured when Chanting.",
+    "description": ": The essence of a melodic Fairy voice.",
+    "requirement": ": Fairy Faction (Not Dwarven)",
+    "chance": ": (x / 40,000)%, where x is the is the amount of Fairy Chantings cast this game."
+  },
+  {
+    "name": "Lucky Clover",
+    "hint": ": Requires extreme amounts of luck!",
+    "description": ": A perfectly shaped four leaf clover. Each leaf is almost unnaturally identical to the other three.",
+    "requirement": ": Elven Faction (Not Dwarven)",
+    "chance": ": (x - 1) * 50)%, where x is the highest number of consecutive Elven Lucks."
+  },
+  {
+    "name": "Mini-treasure",
+    "hint": ": Click your way to the treasure!",
+    "description": ": It's a small perfect replica of our gold-filled treasure.",
+    "requirement": ": Elven Faction (Not Dwarven)",
+    "chance": ": (x / 3,000,000 (3 M))%, where x is the amount of clicks made this game."
+  },
+  {
+    "name": "Pillar Fragment",
+    "hint": ": May fall from the Heavens.",
+    "description": ": A tiny piece of the legendary pillars which sustain all the Heavens.",
+    "requirement": ": Angel Faction (Not Dwarven)",
+    "chance": ": (x / 3,750)%, where x is the amount of Heaven's Gates you own."
+  },
+  {
+    "name": "Divine Sword",
+    "hint": ": Only found by dedicated Angel allies.",
+    "description": ": The shining golden sword of an Archangel. Its hilt feels pleasantly warm to the pure of heart and burning hot for the villain.",
+    "requirement": ": Angel Faction (Not Dwarven), 3+ consecutive Angels affiliations in this Reincarnation.",
+    "chance": ": (x / 60)%, where x is the amount of consecutive times affiliated with Angels in this Reincarnation."
+  },
+  {
+    "name": "Ancient Coin Piece",
+    "hint": ": Rarely found among other special coins.",
+    "description": ": A common goblin lucky charm. The older it is, the luckier you are, or so they say.",
+    "requirement": ": Goblin Faction (Not Drow)",
+    "chance": ": (x / 50,000,000 (50 M))%, where x is the amount of Faction Coins found this Reincarnation."
+  },
+  {
+    "name": "Goblin Purse",
+    "hint": ": Fill your pockets with extorted money.",
+    "description": ": Heavy and roomy. Definitely too big for just pocket change.",
+    "requirement": ": Goblin Faction (Not Drow)",
+    "chance": ": (x / 300,000)%, where x is Tax collections cast this game."
+  },
+  {
+    "name": "Rotten Organ",
+    "hint": ": Found among large masses of dead bodies.",
+    "description": ": Ew... disgusting. It still pulses.",
+    "requirement": ": Undead Faction (Not Drow)",
+    "chance": ": (x / 500)%, where x is the amount of assistants you own."
+  },
+  {
+    "name": "Jaw Bone",
+    "hint": ": Needs some time off.",
+    "description": ": A jaw, missing more than half of its teeth.",
+    "requirement": ": Undead Faction (Not Drow), 24h+ offline time (this Reincarnation)",
+    "chance": ": (x / 864,000)%, where x is offline time in seconds this Reincarnation."
+  },
+  {
+    "name": "Demonic Figurine",
+    "hint": ": Look for the trophies of the beast.",
+    "description": ": An intricate figurine representing the evil face of a lesser demon.",
+    "requirement": ": Demon Faction (Not Drow), 666+ Trophies unlocked.",
+    "chance": ": 1%"
+  },
+  {
+    "name": "Demon Horn",
+    "hint": ": Only found by dedicated Demon allies.",
+    "description": ": Still blazing with the flames of Hell. Handle with care.",
+    "requirement": ": Demon Faction (Not Drow), 3+ consecutive Demon affiliations in this Reincarnation.",
+    "chance": ": (x / 60)%, where x is the amount of consecutive times affiliated with Demons this Reincarnation."
+  },
+  {
+    "name": "Huge Titan Statue",
+    "hint": ": Struck by the lightning.",
+    "description": ": The granite representation of a giant wielding a lightning bolt in its fist. A foot appears to be missing.",
+    "requirement": ": Titan Faction (Not Dragon)",
+    "chance": ": (x / 1,000)%, where x is Lightning Strike casts this game."
+  },
+  {
+    "name": "Titan Shield",
+    "hint": ": Don't fret it.",
+    "description": ": A gargantuan metal shield, twice as tall as a common human.",
+    "requirement": ": Titan Faction (Not Dragon), 10+ hours playtime (This game)",
+    "chance": ": (x / 180,000)%, where x is time played in this game."
+  },
+  {
+    "name": "Glyph Table",
+    "hint": ": Balance your buildings.",
+    "description": ": Contains all the secrets of the Druidic Alphabet.",
+    "requirement": ": Druid Faction (Not Dragon), same amount of each building tier",
+    "chance": ": 2%"
+  },
+  {
+    "name": "Stone of Balance",
+    "hint": ": A Grand Balance performance.",
+    "description": ": A carved stone hovering above its pedestal.",
+    "requirement": ": Druid Faction (Not Dragon)",
+    "chance": ": (x / 30,000)%, where x is Grand Balance casts this game."
+  },
+  {
+    "name": "Translucent Goo",
+    "hint": ": Byproduct of the Brain.",
+    "description": ": A completely odorless sticky substance with a diaphanous, unsettling glow.",
+    "requirement": ": Faceless Faction (Not Dragon)",
+    "chance": ": (x / 400)%, where x is Brainwave casts this game"
+  },
+  {
+    "name": "Octopus-shaped Helmet",
+    "hint": ": Found in the Labyrinths.",
+    "description": ": A large helmet with empty metal prongs to accommodate tentacular appendages.",
+    "requirement": ": Faceless Faction (Not Dragon)",
+    "chance": ": (x / 2,000)%, where x is the amount of Labyrinths you own."
+  },
+  {
+    "name": "Dwarven Bow",
+    "hint": ": Click to throw.",
+    "description": ": Actually a heavy throwing hammer.",
+    "requirement": ": Dwarven Faction",
+    "chance": ": (x / 25,000)%, where x is the amount of clicks made in this game."
+  },
+  {
+    "name": "Stone Tankard",
+    "hint": ": Found in the Inns.",
+    "description": ": A very heavy mug for drinking the heaviest beers.",
+    "requirement": ": Dwarven Faction",
+    "chance": ": (x / 25,000)%, where x is the amount of Inns you own."
+  },
+  {
+    "name": "Ceremonial Dagger",
+    "hint": ": Avoid hurting your fingers.",
+    "description": ": Its blade is unnaturally keen and sharp.",
+    "requirement": ": Drow Faction, 0 Treasure clicks this Game (including automatic clicks)",
+    "chance": ": 2%"
+  },
+  {
+    "name": "Arachnid Figurine",
+    "hint": ": Embrace Evil. For a while.",
+    "description": ": If you are afraid of spiders, Drow aren't your faction.",
+    "requirement": ": Drow Faction, 24h+ Evil Playtime (All Time)",
+    "chance": ": (x / 4,320,000 (4.32 M))%, where x is time spent as Evil (All Time)."
+  },
+  {
+    "name": "Steel Plate",
+    "hint": ": Legacy from 50 generations ago.",
+    "description": ": A full plate made of hardened steel.",
+    "requirement": ": R5+, Mercenary Faction",
+    "chance": ": (x / 50)%, where x is the number of times you have reincarnated."
+  },
+  {
+    "name": "Black Sword",
+    "hint": ": Only found by really, really dedicated Mercenary allies.",
+    "description": ": A long sword with an extremely sharp blade made of dark metal.",
+    "requirement": ": Mercenary Faction, at least 100 Mercenary affiliations (All Time)",
+    "chance": ": (x / 60,000)%, where x is time spent as Mercenary (All Time)."
+  },
+  {
+    "name": "Dragon Fang",
+    "hint": ": Found in the Wyrm Dens.",
+    "description": ": This huge fang can barely fit in the hands of a Titan.",
+    "requirement": ": R50+, Dragon Faction",
+    "chance": ": (x / 400,000)%, where x is the amount of Iron Strongholds you own."
+  },
+  {
+    "name": "Dragon Soul",
+    "hint": ": Take five deep breaths.",
+    "description": ": The extracted soul from an ancient dragon, wields the power to end the world in an instant. Also makes a good soup ingredient.",
+    "requirement": ": R50+, Dragon Faction, have 5 different Dragon Breath effects active simultaneously",
+    "chance": ": (x / 200,000)%, where x is Dragon's Breath casts this game."
+  },
+  {
+    "name": "Vanilla Flavor Juice",
+    "hint": ": Quickly!",
+    "description": ": An essence from extremely savory vanilla beans.",
+    "requirement": ": R16+, any Vanilla Faction, first 5 minutes of the game",
+    "chance": ": 20%",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase the production of all buildings by 2,500% for the first 25 minutes (this game) for all Vanilla factions. Does not work while offline."
+    ],
+    "cost": ": 1 coin",
+    "note": ": Effect is nullified if you affiliate with Prestige."
+  },
+  {
+    "name": "Ancient Cocoa Bean",
+    "hint": ": True Neutral Flavor.",
+    "description": ": Despite being centuries old, it still smells like top-quality cocoa.",
+    "requirement": ": R22+, any Neutral Faction",
+    "chance": ": 10%",
+    "effects": [
+      ": Awards an upgrade named Chocolate Flavor Smoothie.",
+      ": Increase the production of all buildings by 2,500% for the first 15 minutes (this game) for all Neutral factions. Does not work while offline."
+    ],
+    "cost": ": 1 coin",
+    "note": ": Effect is nullified if you affiliate with Prestige."
+  },
+  {
+    "name": "Know Your Enemy, Part I",
+    "hint": ": A true Mercenary should learn by all other cultures.",
+    "description": ": All the knowledge you need, stored in a handy book.",
+    "requirement": ": R12+, Mercenary Faction, have upgrades from all 11 Factions",
+    "chance": ": 10%",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increases the production of all buildings based on time spent as Non-Mercenary (All Time 'Time spent' with Factions in the stats). Only available to Mercenaries."
+    ],
+    "formula": ": (0.75 * x ^ 0.6)%, where x is time spent as non-Mercenary factions (All Time).",
+    "cost": ": 100 Vg (1e65)"
+  },
+  {
+    "name": "Voodoo Doll",
+    "hint": ": Found in the Witch Conclaves.",
+    "description": ": You are now CURSED! And you feel a sting in your lower rear.",
+    "requirement": ": R16+, Evil Alignment",
+    "chance": ": (x / 10,000)%, where x is the amount of Witch Conclaves you own.",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase the production of all building by 0.1% for each trophy you have unlocked."
+    ],
+    "cost": ": 20 Qig (2e154)"
+  },
+  {
+    "name": "Wall Fragment",
+    "hint": ": Ascension...",
+    "description": ": A fragment of an utterly and completely unbreakable wall. Enjoy your paradox.",
+    "requirement": ": R40+",
+    "chance": ": 10%",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase the production of all buildings based on their tier."
+    ],
+    "formula": ": (3 * (2 * (11 - T)) ^ 3)%, where T is building tier.",
+    "cost": ": 1 M (1e6), A2+ free"
+  },
+  {
+    "name": "Fortune Teller Machine",
+    "hint": ": Don't choose your allies until you know more.",
+    "description": ": Will tell you 1 of 24 statements at random.",
+    "requirement": ": Not affiliated with any Faction",
+    "chance": ": 0.1%",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase the production of Non-Unique buildings based on time spent in this Reincarnation."
+    ],
+    "upgrade requirement": ": R40+",
+    "formula": ": (6.5 * x ^ 0.65)%, where x is time spent in this Reincarnation.",
+    "cost": ": 100 Qi (1e20), A2+ Free"
+  },
+  {
+    "name": "Dawnstone",
+    "hint": ": Relic of the Dawn hours.",
+    "description": ": Only found during sunrise hours. Emits a faint glow.",
+    "requirement": ": R16+, between 5:00 AM and 8:00 AM (Your local time)",
+    "chance": ": (x / 10,000)%, where x is your Excavation count.",
+    "effects": [
+      ": With Both the Dawnstone and Duskstone artifacts, awards the Sun Force upgrade."
+    ],
+    "note": ": Click image for details"
+  },
+  {
+    "name": "Duskstone",
+    "hint": ": Relic of the Dusk hours.",
+    "description": ": Only found during sunset hours. Absorbs light in a small radius.",
+    "requirement": ": R16+, between 6:00 PM and 9:00 PM (Your local time)",
+    "chance": ": (x / 10,000)%, where x is your Excavation count.",
+    "effects": [
+      ": With Both the Dawnstone and Duskstone artifacts, awards the Sun Force upgrade."
+    ],
+    "note": ": Click image for details"
+  },
+  {
+    "name": "Ancient Heirloom",
+    "hint": ": Relic of the Lineage.",
+    "description": ": Passed down countless generations.",
+    "requirement": ": Have at least 1 Lineage level purchased (R60+).",
+    "chance": ": (x / 20)%, where x is the sum of all lineage levels.",
+    "effects": [
+      ": Awards an upgrade of the same name."
+    ],
+    "note": ": Click image for details"
+  },
+  {
+    "name": "Know Your Enemy, Part II",
+    "hint": ": Even an expert Mercenary should learn by all other cultures.",
+    "description": ": Much more knowledge than you need, stored in a handy book.",
+    "requirement": ": R75+, Mercenary Faction, Unique Building, have upgrades from all 12 Factions",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increases the production of all buildings based on time spent as Non-Mercenary (All Time 'Time spent' with Factions in the stats). Only available to Mercenaries."
+    ],
+    "formula": ": (0.065 * x ^ 0.65)%, where x is time spent as non-mercenary factions in seconds (All Time).",
+    "chance": ": 5%",
+    "cost": ": 100 Noqag (1e152)"
+  },
+  {
+    "name": "Veteran Figurine",
+    "hint": ": A reward for the veteran challenger.",
+    "description": ": The warrior of a thousand battles, ultimate champion of the Realms.",
+    "requirement": ": R90+, Dragon Challenge 6",
+    "chance": ": (x / 1,000,000)%, where x is time spent in this game in seconds.",
+    "effects": [
+      ": Passive effect: allows Mercenaries to benefit from all faction challenges of your primary alignment."
+    ],
+    "note": ": Does not grant elite challenges."
+  },
+  {
+    "name": "Wall Chunk",
+    "hint": ": More Ascension...",
+    "description": ": A bigger piece of the infamous Ascension Wall.",
+    "requirement": ": R100+",
+    "chance": ": 10%",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase the production of all buildings based on their tier."
+    ],
+    "formula": ": (30,000 * (11 - T) ^ 3.5)%, where T is building tier.",
+    "cost": ": 1 Sx (1e21), A3+ Free"
+  },
+  {
+    "name": "Excavated Mirage",
+    "hint": ": Raise your chances.",
+    "description": ": You know all too well this does not exist, yet it fills you with hope and optimism.",
+    "requirement": ": R100+",
+    "chance": ": (log10(x) / 100)%, where x is your Faction Coin find chance.",
+    "effects": [
+      ": Awards an upgrade of the same name.",
+      ": Increase Faction Coin find chance by a multiplicative 200%."
+    ],
+    "cost": ": 1 Sx (1e21), A3+ Free"
+  },
+  {
+    "name": "Ancestral Hourglass",
+    "hint": ": Really, raise your chances.",
+    "description": ": The silver sands contained within seem to never stop flowing.",
+    "requirement": ": R100+",
+    "chance": ": (x / 5,000,000,000,000,000 (5 QA))%, where x your Faction Coin find chance.",
+    "effects": [
+      ": Awards an upgrade of the same name."
+    ],
+    "note": ": Click image for details"
+  },
+  {
+    "name": "Silk Cloth",
+    "hint": ": Found in the Swarming Towers.",
+    "description": ": The purest silk made for Fairies, by Fairies, of Fairies.",
+    "requirement": ": R100+, Fairy Faction, Pink Carrot and Bottled Voice artifacts, 2000+ Excavations",
+    "chance": ": ((x - 8,000) / 200,000)%, where x is the amount of Wizard Towers you own (Building count multipliers do not count)."
+  },
+  {
+    "name": "Raw Emerald",
+    "hint": ": Not found on the first Excavation round.",
+    "description": ": Just slightly less precious than a raw Ruby.",
+    "requirement": ": R100+, Elven Faction, Lucky Clover and Mini-treasure artifacts, 2000+ Excavations",
+    "chance": ": (((3 * x) ^ 4.5) / 10,000)%, where x is free and ruby excavation resets (this game)."
+  },
+  {
+    "name": "Fossilized Wing",
+    "hint": ": Angels may fall after a long time.",
+    "description": ": The remains of an Angel fallen to earth.",
+    "requirement": ":  R100+, Angel Faction, Pillar Fragment and Divine Sword artifacts, 2000+ Excavations",
+    "chance": ": (x / 25,920,000 (25.92 M))%, where x time spent with Angels (All Time)."
+  },
+  {
+    "name": "Spiked Whip",
+    "hint": ": Used by the overseers in the Slave Markets.",
+    "description": ": Use with caution. You do not want to exterminate all your slaves.",
+    "requirement": ": R100+, Goblin Faction, Ancient Coin Piece and Goblin Purse artifacts, 2000+ Excavations",
+    "chance": ": ((x - 8,000) / 300,000)%, where x is the amount of Slave Pens you own (Building count multipliers do not count)."
+  },
+  {
+    "name": "Dusty Coffin",
+    "hint": ": Quick! Quick! You have no time to waste!",
+    "description": ": Sealed since forever, yet you can hear a strange noise from within.",
+    "requirement": ": R100+, Undead Faction, Rotten Organ and Jaw Bone artifacts, 2000+ Excavations",
+    "chance": ": (1 / (30 + x ^ 1.5))%, where x is time spent in this game."
+  },
+  {
+    "name": "Crystallized Lava",
+    "hint": ": Found in the Burning Abysses.",
+    "description": ": Incandescent but still. Can be used efficiently as a desk lamp.",
+    "requirement": ": R100+, Demon Faction, Demonic Figurine and Demon Horn artifacts, 2000+ Excavations",
+    "chance": ": ((x - 8,000) / 200,000)%, where x is the amount of Hall of Legends you own (Building count multipliers do not count)."
+  },
+  {
+    "name": "Titan Helmet",
+    "hint": ": Found in the trade route used for Exchanges.",
+    "description": ": Made of enough metal to craft a human-sized full plate.",
+    "requirement": ": R100+, Titan Faction, Huge Titan Statue and Titan Shield artifacts, 2000+ Excavations",
+    "chance": ": ((x ^ 2) / 1,500,000,000 (1.5B))%, where x is Royal Exchanges (Royal Exchange count multipliers do not count)."
+  },
+  {
+    "name": "Branch of the Life Tree",
+    "hint": ": Found in the remains of druidic ancestors.",
+    "description": ": Despite being torn from its source tree, it keeps growing buds and leaves.",
+    "requirement": ": R100+, Druid Faction, Glyph Table and Stone of Balance artifacts, 2000+ Excavations",
+    "chance": ": ((x ^ 3) / 2,000,000 (2M))%, where x is level of Druid Lineage."
+  },
+  {
+    "name": "Nightmare Figment",
+    "hint": ": A strong and quick brain is required.",
+    "description": ": An unshaped, ephemeral substance which is politely trying to corrupt your mind.",
+    "requirement": ": R100+, Faceless Faction, Translucent Goo and Octupus-shaped Helmet artifacts, 2000+ Excavations",
+    "chance": ": ((x ^ 1.5) / 20,000,000 (20M))%, where x is Brainwave's headstart time."
+  },
+  {
+    "name": "Beard Hair",
+    "hint": ": It requires a lot of beard samples to get the perfect hair.",
+    "description": ": Hopefully coming from a real dwarven beard.",
+    "requirement": ": R116+, Dwarven Faction, Stone Tankard and Dwarven Bow artifacts, 2000+ Excavations",
+    "chance": ": (x / 1,000,000,000 (1 B))%, where x is the amount of assistant you own (including temporary assistants)."
+  },
+  {
+    "name": "Poison Vial",
+    "hint": ": Combo your way through.",
+    "description": ": One drop of this is enough to fell thousands of non-immune creatures.",
+    "requirement": ": R116+, Drow Faction, Ceremonial Dagger and Arachnid Figurine artifacts, 2000+ Excavations",
+    "chance": ": ((40 * x ^ 0.9) / 10,000,000 (10 M))%, where x is combo strike counter."
+  },
+  {
+    "name": "Dragon Scale",
+    "hint": ": Usually found when a lot of magic is lingering.",
+    "description": ": Very high on the realms' most accurate hardiness rankings.",
+    "requirement": ": R116+, Dragon Faction, Dragon Fang and Dragon Soul artifacts, 2000+ Excavations",
+    "chance": ": (x / 2,500)%, where x is the amount of active spells."
+  },
+  {
+    "name": "Lantern of Guidance",
+    "hint": ": Massive mana flows can offer guidance.",
+    "description": ": Follow the guiding light, o wonderer, for it shall bring you fortune.",
+    "requirement": ": R120+, Proof of Order",
+    "chance": ": (x / 10,000,000,000 (10 B))%, where x is your Mana Regeneration.",
+    "effects": [
+      ": Unlocks Tier 2 Temporal Flux"
+    ]
+  },
+  {
+    "name": "Oil Lamp",
+    "hint": ": Chaos magic burns brightly.",
+    "description": ": Rub it, polish it. And remember to express your desires precisely, lest you want to face dire consequences.",
+    "requirement": ": R120+, Proof of Chaos",
+    "chance": ": (min(x, y, z) / 86,400,000 (86.4 M))%, where x is Fairy Chanting spell activity time, y is Hellfire Blast spell activity time, and z is Brainwave spell activity time (All Time).",
+    "effects": [
+      ": Unlocks Tier 2 Maelstrom"
+    ]
+  },
+  {
+    "name": "Spark of Life",
+    "hint": ": The power of Creation may spark something new.",
+    "description": ": The spark of Creation, dimly shining from the bottom of its encasing crystal.",
+    "requirement": ": R120+, Proof of Balance",
+    "chance": ": (log10(1 + x) ^ 2 / 6,000)%, where x is the amount of Faction Coins collected this game.",
+    "effects": [
+      ": Unlocks Tier 2 All Creation"
+    ]
+  },
+  {
+    "name": "Planetary Force",
+    "hint": ": Try every day for better luck! Missing a day is the same as breaking a mirror, you know.",
+    "description": ": Planets aligning seem to affect your realm in different ways...",
+    "requirement": ": R100+",
+    "chance": ": ((x ^ 2.5) / 5,000)%, where x is amount of consecutive days logged in.",
+    "effects": [
+      ": Awards an upgrade with the same name.",
+      ": Activates all Sun Force effects at once."
+    ],
+    "cost": ": 100 Qi (1e20), A3+ Free"
+  },
+  {
+    "name": "Mercenary Insignia",
+    "hint": ": Gem rhabdomancy seems to work best.",
+    "description": ": The infamous metal cross of the Mercenaries. You should be both proud and afraid to carry one.",
+    "requirement": ": R160+, Mercenary Faction, Steel Plate and Black Sword artifacts",
+    "chance": ": (floor(log10(1 + x) - 37) * 0.1)%, where x is the amount of gems owned."
+  },
+  {
+    "name": "Mana Loom",
+    "hint": ": Attracted by amassed mana reserves.",
+    "description": ": Used to weave even the thinnest mana strings.",
+    "requirement": ": R180+, Chaos Alignment",
+    "chance": ": (log10(x) ^ 3 / 50,000)%, where x is the amount of Mana produced in this game.",
+    "effects": [
+      ": Awards upgrade with same name."
+    ]
+  },
+  {
+    "name": "Factory",
+    "hint": ": Dig it manually.",
+    "description": ": Mass-production is the way to go.",
+    "requirement": ": R180+, Neutral Alignment",
+    "chance": ": (log10(x) ^ 3 / 10,000)%, where x is the amount of clicks made in this game.",
+    "effects": [
+      ": Awards upgrade with same name."
+    ]
+  },
+  {
+    "name": "Mythos",
+    "hint": ": Spells get sad when not used for a long time.",
+    "description": ": Accurate historical list of every existing or non-existing deity.",
+    "requirement": ": R180+, Good Alignment",
+    "chance": ": (x / 4,320,000 (4.32 M)%, where x is the activity time in this Reincarnation of your least used spell (excluding Share Benefits, Catalyst and Event spells).",
+    "effects": [
+      ": Awards upgrade with same name."
+    ]
+  },
+  {
+    "name": "Vault",
+    "hint": ": Show your prowess as a Royal Trader.",
+    "description": ": Never a place could be more secure.",
+    "requirement": ": R180+, Balance Alignment",
+    "chance": ": (x / 100,000,000 (100 M))%, where x is Royal Exchange Bonus.",
+    "effects": [
+      ": Awards upgrade with same name."
+    ]
+  },
+  {
+    "name": "Athanor",
+    "hint": ": Archemy.",
+    "description": ": The legendary oven that could smelt souls into matter.",
+    "requirement": ": R180+, Order Alignment",
+    "chance": ": (x / 1,000,000 (1 M))%, where x is Alchemy research points.",
+    "effects": [
+      ": Awards upgrade with same name."
+    ]
+  },
+  {
+    "name": "Battlefield",
+    "hint": ": Would you think an army is enough to excavate this?",
+    "description": ": An extremely accurate replica of a battle fought long ago.",
+    "requirement": ": R180+, Evil Alignment",
+    "chance": ": (log10(1 + x) ^ 3 / 20,000)%, where x is amount of assistants you own.",
+    "effects": [
+      ": Awards an upgrade with same name"
+    ]
+  },
+  {
+    "name": "Apeiron",
+    "hint": ": Be different.",
+    "description": ": The source of everything. Can fit in the average pocket.",
+    "requirement": ": R175+, Mercenary, 15 different Faction upgrades",
+    "chance": ": 0.1%",
+    "effects": [
+      ": Awards an upgrade with same name."
+    ]
+  },
+  {
+    "name": "Glowing Wing",
+    "hint": ": Mana Wings!",
+    "description": ": And this is why Fairies don't need torches.",
+    "requirement": ": R220+, Fairy Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 8,000)%, where x is Mana produced this game."
+  },
+  {
+    "name": "Sylvan Mirror",
+    "hint": ": Pay a barber with Faction Coins.",
+    "description": ": An Elf with messy hair is not an Elf, by their own laws.",
+    "requirement": ": R220+, Elven Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 8,000)%, where x is your Faction Coin find chance."
+  },
+  {
+    "name": "Solid Cloud",
+    "hint": ": A cloud of spells.",
+    "description": ": Angels have the power to save your life! And make a backup of it on the internet.",
+    "requirement": ": R220+, Angel Faction, 10,000+ Excavations",
+    "chance": ": (x / 40,000)%, where x is the amount of active spells (Active Spells count more multipliers do not count)."
+  },
+  {
+    "name": "Orc Fang Necklace",
+    "hint": ": Torment your subjects with taxes.",
+    "description": ": To remind your slaves who's in charge.",
+    "requirement": ": R220+, Goblin Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 8,000)%, where x is Tax Collection casts in this game."
+  },
+  {
+    "name": "Blood Chalice",
+    "hint": ": Pour a bottle of Frenzy.",
+    "description": ": The healthiest vampire breakfast.",
+    "requirement": ": R220+, Undead Faction, 10,000+ Excavations",
+    "chance": ": (x / 10,000)%, where x is Blood Frenzy's duration (The duration when it was cast)."
+  },
+  {
+    "name": "Demon Tail",
+    "hint": ": Evil wizardry.",
+    "description": ": Said to bring great luck to whom it possess...es.",
+    "requirement": ": R220+, Demon Faction, 10,000+ Excavations",
+    "chance": ": (x / 1,000,000)%, where x is Evil Spell Casts in this game."
+  },
+  {
+    "name": "Frozen Lightning",
+    "hint": ": Lightning never strikes the same place a couple million times. Maybe.",
+    "description": ": A sculpture representing the embodiment of Titanic power.",
+    "requirement": ": R220+, Titan Faction, 10,000+ Excavations",
+    "chance": ": (x / 1,000,000)%, where x is Lightning Strike activity time in this game."
+  },
+  {
+    "name": "Primal Leaf",
+    "hint": ": Huuuuge blue ball.",
+    "description": ": Druid Catalyst for channeling the power of nature.",
+    "requirement": ": R220+, Druid Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 8,000)%, where x is the highest Maximum Mana in this Reincarnation."
+  },
+  {
+    "name": "The Blackest Ink",
+    "hint": ": Quality takes time.",
+    "description": ": High-quality, freshly produced Faceless ink.",
+    "requirement": ": R220+, Faceless Faction, 10,000+ Excavations",
+    "chance": ": (x / 10,000)%, where x is the longest game session this Reincarnation (but not this game)."
+  },
+  {
+    "name": "Dwarven Anvil",
+    "hint": ": Dwarven clicks!",
+    "description": ": Every dwarven child is required to bring this to school every day.",
+    "requirement": ": R235+, Dwarven Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 10,000)%, where x is your number of clicks in this Reincarnation."
+  },
+  {
+    "name": "Stiletto Heel",
+    "hint": ": A drow trade.",
+    "description": ": Drow make the most beautiful underground females.",
+    "requirement": ": R235+, Drow Faction, 10,000+ Excavations",
+    "chance": ": (x / 10,000)%, where x is the number of Royal Exchanges you have."
+  },
+  {
+    "name": "Eye Of The Dragon",
+    "hint": ": Draconic Assistants.",
+    "description": ": The ultimate thrill of the fight.",
+    "requirement": ": R235+, Dragon Faction, 10,000+ Excavations",
+    "chance": ": (log10(1 + x) / 10,000)%, where x is the highest amount of assistants you had in this Reincarnation."
+  }
+]
