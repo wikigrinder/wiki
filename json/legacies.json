@@ -1,0 +1,1035 @@
+[
+  {
+    "faction": "Fairy",
+    "artifact_type": "lineage",
+    "name": "Fairy Lineage",
+    "cost": "400 Fairy Royal Exchanges",
+    "effects": [
+      "Farms, Inns and Blacksmiths count 18% more for every level."
+    ]
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Fairy Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Makes Fairy Bloodline affect Hall of Legends.",
+      "Removes 1 Ascension penalty from Fairy Bloodline."
+    ]
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Fairy Perk (Level 10)",
+    "effects": [
+      "x100 Fairy Faction Coins find chance."
+    ]
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Fairy Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Fairy Lineage Challenge.",
+      "Unlocks Faction spell. (Fairy Chanting)"
+    ],
+    "challenge": "2k Assistants in less than 10 minutes."
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Fairy Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Gain more assistants based on the amount of Unique Buildings you own (additively)."
+    ],
+    "formula": [
+      "+(30 * x ^ 0.7), where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Fairy Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "While Fairy Chanting is active, further increase your temporary assistants based on its duration."
+    ],
+    "formula": [
+      "(2.5 * x ^ 0.25)%, where x is Fairy Chanting duration."
+    ]
+  },
+  {
+    "faction": "Fairy",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Fairy Perk 5",
+    "effects": [
+      "Assistants count 300% more."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "lineage",
+    "name": "Angel Lineage",
+    "cost": "400 Angel Royal Exchanges",
+    "effects": [
+      "Multiplicatively increase Mana Regeneration by 7% for every level."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Angel Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Angel Bloodline effect now counts total spells cast this Reincarnation."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Angel Perk (Level 10)",
+    "effects": [
+      "x100 Angel Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Angel Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Angel Lineage Challenge.",
+      "Unlocks Faction spell. (God's Hand)"
+    ],
+    "challenge": "Play 2 hours straight with at least 1 spell active.",
+    "notes": [
+      "This must be done within first 2 hours and 1 minute since start of run."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Angel Perk 3",
+    "requirement": "Reach Lineage Level 20",
+    "effects": [
+      "Increase God's Hand bonus based on Unique Buildings owned."
+    ],
+    "formula": [
+      "(3 * x ^ 0.9)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Angel Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "When God's Hand is active, multiplicatively increase Maximum Mana by 50%."
+    ]
+  },
+  {
+    "faction": "Angel",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Angel Perk 5",
+    "effects": [
+      "Spells cast count 1000% more."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "lineage",
+    "name": "Goblin Lineage",
+    "cost": "400 Goblin Royal Exchanges",
+    "effects": [
+      "Increase Tax Collection worth in seconds by 25 for every level."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Goblin Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "When using Goblin Bloodline, Tax Collections are worth more seconds based on the amount of assistants you own."
+    ],
+    "formula": [
+      "(0.75 * x ^ 0.25)%, where x is amount of assistants you own."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Goblin Perk (Level 10)",
+    "effects": [
+      "x100 Goblin Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Goblin Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Goblin Lineage Challenge.",
+      "Unlocks Faction spell. (Goblin's Greed)"
+    ],
+    "challenge": "Cast 1 million TCs in a single game."
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Goblin Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Increase base production of Unique Buildings based on their amount (multiplicative)."
+    ],
+    "formula": [
+      "(5 * x ^ 0.5)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Goblin Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "Goblin's Greed stops producing Faction Coins instantly. Instead, multiplicatively increase your Faction Coin find chance based on the Gems required for your next Reincarnation."
+    ],
+    "formula": [
+      "(20 + ln(1 + x) ^ 1.85)%, where x is Gems required for your next Reincarnation."
+    ]
+  },
+  {
+    "faction": "Goblin",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Goblin Perk 5",
+    "effects": [
+      "Increase Faction Coin Find Chance by 1000%."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "lineage",
+    "name": "Undead Lineage",
+    "cost": "400 Undead Royal Exchanges",
+    "effects": [
+      "Multiplicatively increase assistants by 1% for per level."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Undead Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Undead Bloodline multiplies your assistants by 5% of the amount instead of adding them."
+    ],
+    "formula": [
+      "(5 * x)%, where x is the amount of assistants gained from Undead bloodline."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Undead Perk (Level 10)",
+    "effects": [
+      "x100 Undead Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Undead Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Undead Lineage Challenge.",
+      "Unlocks Faction spell. (Night Time)"
+    ],
+    "challenge": "Have Night Time's spell duration be 60 seconds."
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Undead Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Gain 10 assistants for every 500 Unique Buildings (additively)."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Undead Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "Increase offline production based on Night Time activity time in this game."
+    ],
+    "formula": [
+      "(7 * x ^ 0.7)%, where x is Night Time activity time this game."
+    ]
+  },
+  {
+    "faction": "Undead",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Undead Perk 5",
+    "effects": [
+      "Reincarnation Power Counts Reincarnations as 100% more."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "lineage",
+    "name": "Demon Lineage",
+    "cost": "400 Demon Royal Exchanges",
+    "effects": [
+      "Increase Non-Unique Buildings production based on Lineage level. Ascension penalty reduces based on time this Reincarnation."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Demon Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "While using Demon Bloodline, increase Maximum Mana based on trophies unlocked."
+    ],
+    "formula": [
+      "+(20 * x), where x is trophies unlocked."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Demon Perk (Level 10)",
+    "effects": [
+      "x100 Demon Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Demon Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Demon Lineage Challenge.",
+      "Unlocks Faction spell. (Hellfire Blast)"
+    ],
+    "challenge": "2 days of HFB activity time (This R)."
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Demon Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Multiplicatively increase production bonus from Gems based on the amount of Unique Buildings you own."
+    ],
+    "formula": [
+      "(0.6 * x ^ 0.66)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Demon Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "Non-Unique Buildings are also targeted by Hellfire Blast."
+    ]
+  },
+  {
+    "faction": "Demon",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Demon Perk 5",
+    "effects": [
+      "Trophies count 1000% more."
+    ]
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "lineage",
+    "name": "Titan Lineage",
+    "cost": "400 Angel and 400 Goblin Royal Exchanges",
+    "effects": [
+      "Increase Royal Exchange Bonus and Royal Exchange Count by 200% for every level (Bonus additively, Count multiplicatively)."
+    ]
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Titan Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Removes 1 Ascension penalty from Titan Bloodline."
+    ]
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Titan Perk (Level 10)",
+    "effects": [
+      "x50 more Angel and Goblin Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Titan Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Titan Lineage Challenge.",
+      "Unlocks Faction spell. (Lightning Strike)"
+    ],
+    "challenge": "25,000 mana per second as pure Titan (Do not buy Dragon Trade Treaty)."
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Titan Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Increase the base production of tier 4 and tier 7 buildings based on Unique Buildings owned."
+    ],
+    "tier_4_formula": "+(2.5 * x ^ 0.5), where x is the amount of Unique Buildings you own.",
+    "tier_7_formula": "+(25 * x ^ 0.5), where x is the amount of Unique Buildings you own."
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Titan Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "Lightning Strike always hits Unique Buildings in addition to its random target. Unique Buildings are no longer random targets."
+    ]
+  },
+  {
+    "faction": "Titan",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Titan Perk 5",
+    "effects": [
+      "Royal Exchanges count 500% more."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "lineage",
+    "name": "Druid Lineage",
+    "cost": "400 Elven and 400 Demon Royal Exchanges",
+    "effects": [
+      "Each lineage level counts as 2 additional Reincarnations."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Druid Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Increases Non-Unique building production based on time spent in this game."
+    ],
+    "formula": [
+      "(0.25 * x ^ 1.25)%, where x is time spent in this game."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Druid Perk (Level 10)",
+    "effects": [
+      "x50 more Elven and Demon Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Druid Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Druid Lineage Challenge.",
+      "Unlocks Faction spell. (Grand Balance)"
+    ],
+    "challenge": "Have a mana regeneration of at least double your max mana."
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Druid Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Activity time for all spells counts 3% more for every 1,000 Unique Buildings."
+    ],
+    "formula": [
+      "(3 * x / 1,000)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Druid Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30.",
+    "effects": [
+      "Grand Balance lasts longer based on the amount of assistants you own.",
+      "Also, while Grand Balance is active, increase the production of its targets based on Grand Balance duration."
+    ],
+    "formula": [
+      "(3 * ln(1 + x) ^ 3), where x is amount of assistants you own.",
+      "((x ^ 0.5) ^ (1 + 0.01 * y)), where x is Grand Balance spell duration and y is Grand Balance tier."
+    ]
+  },
+  {
+    "faction": "Druid",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Druid Perk 5",
+    "effects": [
+      "Mana produced counts 1000% more."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "lineage",
+    "name": "Faceless Lineage",
+    "cost": "400 Fairy and 400 Undead Royal Exchanges",
+    "effects": [
+      "Increase the duration of all spells based on lineage level."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Faceless Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Faceless Bloodline counts total mana produced (This R) and increases mana per second based on the amount of assistants you own."
+    ],
+    "formula": [
+      "(0.95 * x ^ 0.95), where x is assistants you own."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Faceless Perk (Level 10)",
+    "effects": [
+      "x50 more Fairy and Undead Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Faceless Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Faceless Lineage Challenge.",
+      "Unlocks Faction spell. (Brainwave)"
+    ],
+    "challenge": "Cast 100 Brainwaves in a single game."
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Faceless Perk 3",
+    "requirement": "Reach Lineage Level 20.",
+    "effects": [
+      "Increase assistants production based on the amount of Unique Buildings you own. Does not suffer from Ascension penalties."
+    ],
+    "formula": [
+      "(x ^ 0.5)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Faceless Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30",
+    "effects": [
+      "Remove 1 Ascension penalty from Brainwave on Unique Buildings."
+    ]
+  },
+  {
+    "faction": "Faceless",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Faceless Perk 5",
+    "effects": [
+      "Time passed counts 100% more."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "lineage",
+    "name": "Dwarven Lineage",
+    "cost": "400 Dwarven Royal Exchanges",
+    "effects": [
+      "Increase the base production of each building based on their tier (additively)."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Dwarven Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Dwarven Bloodline increases Faction Coin find chance based on total time spent as Good. (1 day of Good = 19,520%)."
+    ],
+    "formula": [
+      "+(50 * x ^ 0.75)%, where x is time spent as Good in this Reincarnation."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Dwarven Perk (Level 10)",
+    "effects": [
+      "x100 Dwarven Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Dwarven Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Dwarven Lineage Challenge.",
+      "Unlocks Faction spell. (Diamond Pickaxe)"
+    ],
+    "challenge": "Have 10,000 Excavations."
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Dwarven Perk 3",
+    "requirement": "Reach Lineage Level 20",
+    "effects": [
+      "Excavations and Artifacts count more based on the amount of Unique Buildings you own."
+    ],
+    "formula": [
+      "(0.58 * x ^ 0.58)%, where x is the number of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Dwarven Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30",
+    "effects": [
+      "When Diamond Pickaxe is active, multiplicatively increase Mana Regneration based on Faction Coin find chance."
+    ],
+    "formula": [
+      "(log10(1 + x) ^ 2.5)%, where x is Faction Coin Find chance."
+    ]
+  },
+  {
+    "faction": "Dwarven",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Dwarven Perk 5",
+    "effects": [
+      "Buildings count 75% more."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "lineage",
+    "name": "Drow Lineage",
+    "cost": "400 Drow Royal Exchanges",
+    "effects": [
+      "Increase offline production bonus based on Lineage level. Does not suffer from Ascension penalties."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Drow Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Time counts more based on your all-time maximum Combo Strike counter."
+    ],
+    "formula": [
+      "(1.5 * ln(1 + x) ^ 1.5)%, where x is your all-time maximum Combo Strike counter."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Drow Perk (Level 10)",
+    "effects": [
+      "x100 Drow Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Drow Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Drow Lineage Challenge.",
+      "Unlocks Faction spell. (Combo Strike)"
+    ],
+    "challenge": "30 days offline across all Reincarnations."
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Drow Perk 3",
+    "requirement": "Reach Lineage Level 20",
+    "effects": [
+      "Multiplicatively increase Faction Coin find chance based on the amount of Unique Buildings you own."
+    ],
+    "formula": [
+      "(0.5 * x ^ 0.5)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Drow Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30",
+    "effects": [
+      "Combo Strike's combo bonus increases by 5% per 30 seconds spent this game.",
+      "While Combo Strike is active, increase the production of all buildings based on the current Combo Strike bonus."
+    ],
+    "formula": [
+      "(2 * log10((x ^ 0.9) ^ T) ^ 2)%, where x is Combo Strike counter, and T is spell tier."
+    ]
+  },
+  {
+    "faction": "Drow",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Drow Perk 5",
+    "effects": [
+      "Maximum Mana counts 300% more."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "lineage",
+    "name": "Dragon Lineage",
+    "cost": "400 Dwarven and 400 Drow Royal Exchanges",
+    "effects": [
+      "Unique Buildings count as 12% more for every level."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Dragon Perk 1",
+    "requirement": "Reach Lineage Level 5",
+    "effects": [
+      "Dragon Bloodline increases the production of Unique Buildings by 1.75% per building of the same type."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Dragon Perk (Level 10)",
+    "effects": [
+      "x50 more Dwarven and Drow Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Dragon Perk 2",
+    "requirement": "Reach Lineage Level 15",
+    "effects": [
+      "Unlocks Dragon Lineage Challenge.",
+      "Unlocks Faction spell. (Dragons Breath)"
+    ],
+    "challenge": "Have 5 spells at Tier 5 in less than 10 minutes."
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Dragon Perk 3",
+    "requirement": "Reach Lineage Level 20",
+    "effects": [
+      "Maximum Mana increased by +1.25 for every 2 Unique Buildings."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Dragon Perk 4",
+    "requirement": "R105+, Reach Lineage Level 30",
+    "effects": [
+      "Activates two breaths per cast."
+    ]
+  },
+  {
+    "faction": "Dragon",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Dragon Perk 5",
+    "effects": [
+      "Lineage levels count 100% more."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "lineage",
+    "name": "Archon Lineage",
+    "cost": "400 Angel, Undead Royal Exchanges",
+    "effects": [
+      "Multiplicatively increase Faction Coin find chance by 20% for every level."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Archon Perk 1",
+    "effects": [
+      "While using Archon Bloodline, increase production of Elite Unique Buildings based on maximum mana."
+    ],
+    "formula": [
+      "(0.8 * x ^ 0.8)%, where x is Maximum Mana."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Archon Perk (Level 10)",
+    "effects": [
+      "x50 more Angel and Undead Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Archon Perk 2",
+    "effects": [
+      "Unlocks Archon Lineage Challenge.",
+      "Unlocks Faction spell (Precognition)."
+    ],
+    "challenge": "Have at least 30 billion (3e10) Mana Regeneration within 45 seconds of a new run."
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Archon Perk 3",
+    "effects": [
+      "Multiplicatively increase Mana Regneration based on the amount of Unique Buildings you own."
+    ],
+    "formula": [
+      "(0.5 * x ^ 0.5)%, where x is the amount of Unique Buildings you own."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Archon Perk 4",
+    "effects": [
+      "Precognition also affects trophies, Gems owned and Faction Coins found."
+    ]
+  },
+  {
+    "faction": "Archon",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Archon Perk 5",
+    "effects": [
+      "Unique Buildings count 100% more."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "lineage",
+    "name": "Djinn Lineage",
+    "cost": "400 Fairy, Demon Royal Exchanges",
+    "effects": [
+      "Increase production bonus from Gems by a multiplicative 8% for every level."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Djinn Perk 1",
+    "effects": [
+      "Catalyst casts in this game also increase Limited Wish counter for the purpose of increasing its bonus.",
+      "All spells cost 25% less."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Djinn Perk (Level 10)",
+    "effects": [
+      "x50 more Fairy and Demon Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Djinn Perk 2",
+    "effects": [
+      "Unlocks Djinn Lineage Challenge.",
+      "Unlocks Faction spell. (Limited Wish)"
+    ],
+    "challenge": "Have at least 1 billion (1e9) assistants within 45 seconds of a new run."
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Djinn Perk 3",
+    "effects": [
+      "Tax Collection casts count 3% more for every 1000 Unique Buildings."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Djinn Perk 4",
+    "effects": [
+      "When Limited Wish is cast, gain +888 to automatic clicks stat."
+    ]
+  },
+  {
+    "faction": "Djinn",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Djinn Perk 5",
+    "effects": [
+      "Mana regeneration counts 200% more."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "lineage",
+    "name": "Makers Lineage",
+    "cost": "400 Elven, Goblin Royal Exchanges",
+    "effects": [
+      "Increase Royal Exchange bonus by a multiplicative 8% for every level."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 5,
+    "name": "Makers Perk 1",
+    "effects": [
+      "While using Makers Bloodline, the requirement for Free Excavation Reset is reduced by 25%."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 10,
+    "name": "Makers Perk (Level 10)",
+    "effects": [
+      "x50 more Elven and Goblin Faction Coin find chance."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 15,
+    "name": "Makers Perk 2",
+    "effects": [
+      "Unlocks Makers Lineage Challenge.",
+      "Unlocks Faction spell. (Infinite Spiral)"
+    ],
+    "challenge": "Have at least 300,000 buildings within 45 seconds of a new run."
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 20,
+    "name": "Makers Perk 3",
+    "effects": [
+      "Increase Offline bonus by 10% per 500 Unique Buildings."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 30,
+    "name": "Makers Perk 4",
+    "effects": [
+      "While Infinite Spiral is active, the production of all buildings increases by 1% each second, up to its maximum duration."
+    ]
+  },
+  {
+    "faction": "Makers",
+    "artifact_type": "perk",
+    "level": 40,
+    "name": "Makers Perk 5",
+    "effects": [
+      "Excavations count 200% more."
+    ]
+  }
+]
