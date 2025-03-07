@@ -16,10 +16,12 @@ With that in mind, if you are in the `scripts` you can run the following command
 - scrape_TrophyPage.py: ` python scrape_TrophyPage.py > ../json/trophies.json`
 - scrape_Artifacts.py:  `python scrape_Artifacts.py > ../json/artifacts.json`
 - scrape_Legacies.py: `python .\scrape_Legacies.py > ../json/legacies.json`
-- ??
+- scrape_Heritages.py: `python .\scrape_Legacies.py > ../json/legacies.json`
+- more to come
 
 # Known Issues
 - effect on artifacts needs work
 
 # Improvements
 - add a parent label to each file (e.g. for trophies.json the array should be inside an element called trophies)
+- make a master script to run all the above commands at once

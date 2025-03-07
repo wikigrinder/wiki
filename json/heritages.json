@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Fairy Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "fairy",
+    "cost": "5,000 Fairy Coins",
+    "requirements": "Fairy Champion Trophy",
+    "effect": "Increase the production of all buildings by 0.075% per Farm, Inn and Blacksmith you own."
+  },
+  {
+    "name": "Elven Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "elven",
+    "cost": "5,000 Elven Coins",
+    "requirements": "Elven Champion Trophy",
+    "effect": "Increase your chance to find Faction Coins by +5% and increase your click reward based on your chance to find Faction Coins.",
+    "formula": "(2 * ln(1 + x) ^ 2)%, where x is your chance to find faction coins."
+  },
+  {
+    "name": "Angelic Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "angelic",
+    "cost": "5,000 Angel Coins",
+    "requirements": "Angel Champion Trophy",
+    "effect": "Multiplicatively increase Mana Regeneration by 10%."
+  },
+  {
+    "name": "Goblin Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "goblin",
+    "cost": "5,000 Goblin Coins",
+    "requirements": "Goblin Champion Trophy",
+    "effect": "Increase the production of all buildings based on the amount of gems you own.",
+    "formula": "floor(7.5 * log10(1 + x))%, where x is the amount of gems you have."
+  },
+  {
+    "name": "Undead Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "undead",
+    "cost": "5,000 Undead Coins",
+    "requirements": "Undead Champion Trophy",
+    "effect": "You gain additional assistants based on the time spent in this game.",
+    "formula": "+(floor(1 + 1.6 * (x / 3600) ^ 0.6)), where x is time spent this game."
+  },
+  {
+    "name": "Demonic Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "demonic",
+    "cost": "5,000 Demon Coins",
+    "requirements": "Demon Champion Trophy",
+    "effect": "Increase the production of all buildings by 0.3% per Hall of Legends you own."
+  },
+  {
+    "name": "Titan Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "titan",
+    "cost": "25,000 Angel Coins, 25,000 Goblin Coins",
+    "requirements": "Titan Champion Trophy",
+    "effect": "Increase Royal Exchanges production bonus by an additional 15% each."
+  },
+  {
+    "name": "Druid Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "druid",
+    "cost": "25,000 Elven Coins, 25,000 Demon Coins",
+    "requirements": "Druid Champion Trophy",
+    "effect": "Increase maximum Mana by +1 every 15 buildings you own."
+  },
+  {
+    "name": "Faceless Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "faceless",
+    "cost": "25,000 Fairy Coins, 25,000 Undead Coins",
+    "requirements": "Faceless Champion Trophy",
+    "effect": "Your production is increased based on the highest amount of buildings purchased in a single game.",
+    "formula": "(0.25 * x ^ 0.75)%, where x is your Buildings Owned (Max) stat."
+  },
+  {
+    "name": "Dwarven Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "dwarven",
+    "cost": "75,000 Dwarven Coins",
+    "requirements": "Dwarven Champion Trophy",
+    "effect": "Increase the production of all buildings based on the total amount of Excavations you made.",
+    "formula": "(2 * (x ^ 0.9))%, where x is the number of excavations you've purchased."
+  },
+  {
+    "name": "Drow Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "drow",
+    "cost": "75,000 Drow Coins",
+    "requirements": "Drow Champion Trophy",
+    "effect": "Increase the production of assistants based on the amount of Royal Exchanges you purchased in this game.",
+    "formula": "(2 * x ^ 0.8)%, where x is the amount of Royal Exchanges purchased in this game."
+  },
+  {
+    "name": "Mercenary Badge",
+    "advanced": false,
+    "type": "perk",
+    "faction": "mercenary",
+    "cost": "100,000 (of each) Faction Coins",
+    "unlock requirements": "Mercenary Champion Trophy",
+    "effect": "Increase the production of all buildings based on the highest amount of coins you gained in a single game.",
+    "formula": "floor(5 * log10(1 + x))%, where x is your Coins Gained (Max) stat."
+  },
+  {
+    "name": "Dragon Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "dragon",
+    "cost": "400 B (4e11) Dwarven and Drow coins",
+    "requirements": "Dragons Champion Trophy",
+    "effect": "Increase assistants production based on time spent affiliated with Dragons in this Reincarnation.",
+    "formula": "(0.3 * x ^ 0.7)%, x is time in seconds affiliated with Dragons (This Reincarnation)."
+  },
+  {
+    "name": "Archon Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "archon",
+    "cost": "1 Ud (1e36) Angel and Undead Coins",
+    "requirements": "Archon Champion Trophy",
+    "effect": "Buildings, Assistants, Royal Exchanges, Spells cast and Clicks count more, by 10%."
+  },
+  {
+    "name": "Djinn Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "djinn",
+    "cost": "1 Ud (1e36) Fairy and Demon Coins",
+    "requirements": "Djinn Champion Trophy",
+    "effect": "Increase the production of Unique Buildings based on Limited Wish activity time in this Reincarnation.",
+    "formula": "(0.3 * x ^ 0.65)%, where x is Limited Wish activity time in this Reincarnation in seconds."
+  },
+  {
+    "name": "Makers Heritage",
+    "advanced": false,
+    "type": "heritage",
+    "faction": "makers",
+    "cost": "1 Ud (1e36) Elven and Goblin Coins",
+    "requirements": "Makers Champion Trophy",
+    "effect": "Multiplicatively increase maximum mana based on Tax Collections cast in this game.",
+    "formula": "*(1 + 0.3 * level)",
+    "note": "Faction Ruler doubles the power of an individual Advanced Heritage if it matches the current alignment (quadruples the power if both alignments match)."
+  },
+  {
+    "name": "Advanced Fairy Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "fairy",
+    "cost": "1 Sp (1e24) Fairy Coins",
+    "requirements": "Fairy Master trophy and 6 hours activity time (This Game) of Fairy Chanting.",
+    "effect": "Gain assistants based on amount of Farms, Inns and Blacksmiths (additive).",
+    "formula": "+(2 * x ^ 0.8), where x is amount of Farms, Inns and Blacksmiths you own."
+  },
+  {
+    "name": "Advanced Elven Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "elven",
+    "cost": "1 Sp (1e24) Elven Coins",
+    "requirements": "Elven Master trophy and 6 hours activity time (This Game) of Moon Blessing.",
+    "effect": "Multiplicatively increase Faction Coin find chance based on the amount of clicks made in this Reincarnation.",
+    "formula": "(0.25 * ln(1 + x) ^ 2)%, where x is amount of clicks this reincarnation."
+  },
+  {
+    "name": "Advanced Angelic Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "angelic",
+    "cost": "1 Sp (1e24) Angel Coins",
+    "requirements": "Angel Master trophy and 6 hours activity time (This Game) of God's Hand.",
+    "effect": "Increase mana regeneration based on the amount of spells cast in this game.",
+    "formula": "+(5 * x ^ 0.25), where x is spells cast this game."
+  },
+  {
+    "name": "Advanced Goblin Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "goblin",
+    "cost": "1 Sp (1e24) Goblin Coins",
+    "requirements": "Goblin Master trophy and 6 hours activity time (This Game) of Goblin's Greed.",
+    "effect": "Tax Collections are worth more seconds of production based on Gems owned. (multiplicative).",
+    "formula": "(0.25 * log10(1 + x) ^ 0.95)%, where x is gems owned."
+  },
+  {
+    "name": "Advanced Undead Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "undead",
+    "cost": "1 Sp (1e24) Undead Coins",
+    "requirements": "Undead Master trophy and 6 hours activity time (This Game) of Night Time.",
+    "effect": "Assistants count more based on your Offline Bonus.",
+    "formula": "(0.025 * ln(1 + x) ^ 2)%, where x is offline bonus multiplier."
+  },
+  {
+    "name": "Advanced Demonic Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "demonic",
+    "cost": "1 Sp (1e24) Demon Coins",
+    "requirements": "Demon Master trophy and 6 hours activity time (This Game) of Hellfire Blast.",
+    "effect": "Increase the production of all buildings based on trophies unlocked.",
+    "formula": "(0.25 * x ^ 0.75)%, where x is amount of trophies unlocked."
+  },
+  {
+    "name": "Advanced Titan Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "titan",
+    "cost": "1 Sp (1e24) Angel and Goblin Coins",
+    "requirements": "Titan Master trophy and 6 hours activity time (This Game) of Lightning Strike.",
+    "effect": "Increase maximum mana based on the amount of Royal Exchanges purchased.",
+    "formula": "(0.85 * ln(1 + x) ^ 1.15)%, where x is Royal Exchanges purchased."
+  },
+  {
+    "name": "Advanced Druid Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "druid",
+    "cost": "1 Sp (1e24) Elven and Demon Coins",
+    "requirements": "Druid Master trophy and 6 hours activity time (This Game) of Grand Balance.",
+    "effect": "Multiplicatively increase Faction Coin find chance based on the sum of all your spells durations.",
+    "formula": "(9 * x ^ 0.3)%, where x is the sum of all your spell durations."
+  },
+  {
+    "name": "Advanced Faceless Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "faceless",
+    "cost": "1 Sp (1e24) Fairy and Undead Coins",
+    "requirements": "Faceless Master trophy and 6 hours activity time (This Game) of Brainwave.",
+    "effect": "Gain assistants based on the amount of Unique Buildings owned (additive).",
+    "formula": "+(2.5 * x ^ 0.8), where x is Unique Buildings owned."
+  },
+  {
+    "name": "Advanced Dwarven Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "dwarven",
+    "cost": "1 Sp (1e24) Dwarven Coins",
+    "requirements": "Dwarf Master Trophy and 6 hours activity time (This Game) of Diamond Pickaxe.",
+    "effect": "Increase the production of all buildings based on the amount of current excavations and excavation resets. (This Reincarnation).",
+    "formula": "(0.025 * (x * (1 + y + z)) ^ 0.65)%, where x is current excavations and y & z are free and ruby excavation resets done in this Reincarnation."
+  },
+  {
+    "name": "Advanced Drow Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "drow",
+    "cost": "1 Sp (1e24) Drow Coins",
+    "requirements": "Drow Master trophy and 6 hours activity time (This Game) of Combo Strike.",
+    "effect": "Increase the production of all buildings based on offline bonus and time spent in this game.",
+    "formula": "(0.0008 * log10(1 + x) * y ^ 0.8)%, where x offline bonus and y is time spent this game."
+  },
+  {
+    "name": "Advanced Dragon Heritage",
+    "advanced": true,
+    "type": "advanced heritage",
+    "faction": "dragon",
+    "cost": "1 Sp (1e24) Dwarven and Drow Coins",
+    "requirements": "Dragon Master trophy and 6 hours activity time (This Game) of Dragon's Breath.",
+    "effect": "The amount of active spells counts 5% more for all purposes."
+  }
+]
